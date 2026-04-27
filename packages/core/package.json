@@ -1,0 +1,16 @@
+{
+  "name": "core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsup src/index.ts --format esm,cjs --dts"
+  },
+  "keywords": [],
+  "author": "Prakhar Dubey",
+  "license": "ISC",
+  "type": "commonjs",
+  "devDependencies": {
+    "tsup": "^8.5.1"
+  }
+}
